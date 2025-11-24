@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This guide describes the simplest way to start using ML backend with Label Studio.
 
 ## Running with Docker (Recommended)
@@ -56,3 +57,6 @@ The following common parameters are available:
 # Customization
 
 The ML backend can be customized by adding your own models and logic inside the `./dir_with_your_model` directory. 
+=======
+# model-offline-classifier
+>>>>>>> dc0c3f743af3de008a41d53d37ac28922c436fb1
