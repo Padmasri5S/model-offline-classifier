@@ -1,0 +1,36 @@
+
+pip install label-studio-ml
+label-studio-ml init my_ml_backend
+cd my_ml_backend
+Run below on cmd in the my_ml_backend folder:
+
+set LABEL_STUDIO_URL=http://localhost:8080
+set LABEL_STUDIO_API_KEY=your_token_here
+set MODEL_DIR=model folder path that contains model.pth
+set CHECKPOINT=model.pth
+set PRED_THRESHOLD=0.5
+change model.py to <placeholder>
+
+and run:
+
+label-studio-ml start . --host 0.0.0.0 --port 9090
+in label studio interface in Projects/ImageDefect/Settings/Labeling Interface, change the choice=”multiple” add the extra 4 component classes and save. Go to model and connect later (steps will be included soon) https://office.com?path='1'.
+
+https://office.com?path='1': https://labelstud.io/guide/ml_create
+------
+pip install label-studio-ml
+label-studio-ml init my_ml_backend
+cd my_ml_backend
+Run below on cmd in the my_ml_backend folder:
+
+set LABEL_STUDIO_URL=http://localhost:8080
+set LABEL_STUDIO_API_KEY=your_token_here
+set MODEL_DIR=model folder path that contains model.pth
+set CHECKPOINT=model.pth
+set PRED_THRESHOLD=0.5
+change model.py to <placeholder>
+
+and run:
+
+label-studio-ml start . --host 0.0.0.0 --port 9090
+in label studio interface in Projects/ImageDefect/Settings/Labeling Interface, change the choice=”multiple” and save. Go to model and connect later (steps will be included soon) .
